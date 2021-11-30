@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,9 @@
 		06A0FBB12755F5C800BAB4FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A0FBAF2755F5C800BAB4FC /* Main.storyboard */; };
 		06A0FBB32755F5CA00BAB4FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A0FBB22755F5CA00BAB4FC /* Assets.xcassets */; };
 		06A0FBB62755F5CA00BAB4FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A0FBB42755F5CA00BAB4FC /* LaunchScreen.storyboard */; };
+		06A0FBC02755F7EA00BAB4FC /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 06A0FBBF2755F7EA00BAB4FC /* SwiftyJSON */; };
+		06A0FBC42756018400BAB4FC /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 06A0FBC32756018400BAB4FC /* Alamofire */; };
+		06A0FBC72756056D00BAB4FC /* cinemavid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A0FBC62756056D00BAB4FC /* cinemavid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,7 @@
 		06A0FBB22755F5CA00BAB4FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06A0FBB52755F5CA00BAB4FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06A0FBB72755F5CA00BAB4FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06A0FBC62756056D00BAB4FC /* cinemavid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cinemavid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A0FBC02755F7EA00BAB4FC /* SwiftyJSON in Frameworks */,
+				06A0FBC42756018400BAB4FC /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,7 @@
 				06A0FBB22755F5CA00BAB4FC /* Assets.xcassets */,
 				06A0FBB42755F5CA00BAB4FC /* LaunchScreen.storyboard */,
 				06A0FBB72755F5CA00BAB4FC /* Info.plist */,
+				06A0FBC62756056D00BAB4FC /* cinemavid.swift */,
 			);
 			path = WorldCinema;
 			sourceTree = "<group>";
@@ -83,6 +90,10 @@
 			dependencies = (
 			);
 			name = WorldCinema;
+			packageProductDependencies = (
+				06A0FBBF2755F7EA00BAB4FC /* SwiftyJSON */,
+				06A0FBC32756018400BAB4FC /* Alamofire */,
+			);
 			productName = WorldCinema;
 			productReference = 06A0FBA62755F5C800BAB4FC /* WorldCinema.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +121,10 @@
 				Base,
 			);
 			mainGroup = 06A0FB9D2755F5C800BAB4FC;
+			packageReferences = (
+				06A0FBBE2755F7EA00BAB4FC /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				06A0FBC22756018400BAB4FC /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 06A0FBA72755F5C800BAB4FC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,6 +154,7 @@
 			files = (
 				06A0FBAE2755F5C800BAB4FC /* ViewController.swift in Sources */,
 				06A0FBAA2755F5C800BAB4FC /* AppDelegate.swift in Sources */,
+				06A0FBC72756056D00BAB4FC /* cinemavid.swift in Sources */,
 				06A0FBAC2755F5C800BAB4FC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +357,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		06A0FBBE2755F7EA00BAB4FC /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		06A0FBC22756018400BAB4FC /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		06A0FBBF2755F7EA00BAB4FC /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06A0FBBE2755F7EA00BAB4FC /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		06A0FBC32756018400BAB4FC /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06A0FBC22756018400BAB4FC /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 06A0FB9E2755F5C800BAB4FC /* Project object */;
 }

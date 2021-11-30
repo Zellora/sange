@@ -76,6 +76,7 @@
       "size" : "76x76"
     },
     {
+      "filename" : "icon-ios-1024-25.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "76x76"
@@ -86,9 +87,18 @@
       "size" : "83.5x83.5"
     },
     {
+      "filename" : "icon-ios-1024.png",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
+    },
+    {
+      "display-gamut" : "display-P3",
+      "filename" : "icon-ios-1024-23.png",
+      "idiom" : "ipad",
+      "scale" : "2x",
+      "size" : "76x76",
+      "unassigned" : true
     }
   ],
   "info" : {
