@@ -15,6 +15,11 @@ class ScrollScreenViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    
+    @IBAction func film (_ sender: Any){
+        
+        performSegue(withIdentifier: "film", sender: nil)
+    }
 
     /*
     // MARK: - Navigation

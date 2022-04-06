@@ -7,5 +7,6 @@
 
 import Foundation
 struct Res {
-    
+//    let tfilm = String?.self
+//    let about = String?.self
 }

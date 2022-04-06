@@ -16,6 +16,9 @@
 		06A0FBC02755F7EA00BAB4FC /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 06A0FBBF2755F7EA00BAB4FC /* SwiftyJSON */; };
 		06A0FBC42756018400BAB4FC /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 06A0FBC32756018400BAB4FC /* Alamofire */; };
 		06A0FBC72756056D00BAB4FC /* cinemavid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A0FBC62756056D00BAB4FC /* cinemavid.swift */; };
+		06A0FBCA2756134100BAB4FC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A0FBC92756134100BAB4FC /* RegisterViewController.swift */; };
+		06A0FBCD2756184D00BAB4FC /* FilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A0FBCC2756184D00BAB4FC /* FilmViewController.swift */; };
+		06A0FBD027561A9E00BAB4FC /* ScrollScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A0FBCF27561A9E00BAB4FC /* ScrollScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		06A0FBB52755F5CA00BAB4FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06A0FBB72755F5CA00BAB4FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06A0FBC62756056D00BAB4FC /* cinemavid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cinemavid.swift; sourceTree = "<group>"; };
+		06A0FBC92756134100BAB4FC /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		06A0FBCC2756184D00BAB4FC /* FilmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmViewController.swift; sourceTree = "<group>"; };
+		06A0FBCF27561A9E00BAB4FC /* ScrollScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				06A0FBAB2755F5C800BAB4FC /* SceneDelegate.swift */,
 				06A0FBAD2755F5C800BAB4FC /* ViewController.swift */,
 				06A0FBAF2755F5C800BAB4FC /* Main.storyboard */,
+				06A0FBCF27561A9E00BAB4FC /* ScrollScreenViewController.swift */,
+				06A0FBCC2756184D00BAB4FC /* FilmViewController.swift */,
+				06A0FBC92756134100BAB4FC /* RegisterViewController.swift */,
 				06A0FBB22755F5CA00BAB4FC /* Assets.xcassets */,
 				06A0FBB42755F5CA00BAB4FC /* LaunchScreen.storyboard */,
 				06A0FBB72755F5CA00BAB4FC /* Info.plist */,
@@ -153,8 +162,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				06A0FBAE2755F5C800BAB4FC /* ViewController.swift in Sources */,
+				06A0FBCA2756134100BAB4FC /* RegisterViewController.swift in Sources */,
 				06A0FBAA2755F5C800BAB4FC /* AppDelegate.swift in Sources */,
 				06A0FBC72756056D00BAB4FC /* cinemavid.swift in Sources */,
+				06A0FBCD2756184D00BAB4FC /* FilmViewController.swift in Sources */,
+				06A0FBD027561A9E00BAB4FC /* ScrollScreenViewController.swift in Sources */,
 				06A0FBAC2755F5C800BAB4FC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

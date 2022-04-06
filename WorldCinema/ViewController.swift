@@ -21,7 +21,13 @@ class ViewController: UIViewController {
         print("You token is:\(userDef.value(forKey: "token"))")
         // Do any additional setup after loading the view.
     }
-
+    
+    
+    @IBAction func reg(_ sender: Any) {
+        performSegue(withIdentifier: "regist", sender: nil)
+        
+    }
+    
     @IBAction func auth(_ sender: Any) {
         guard !inputlogin.text!.isEmpty else {
             return showAlertDialog(message: "Проверьте логин")
@@ -40,6 +46,7 @@ class ViewController: UIViewController {
                 self.showAlertDialog(message: error.localizedDescription)
             }
         }
+       
         
 //        performSegue(withIdentifier: "auth", sender: nil)
     }
